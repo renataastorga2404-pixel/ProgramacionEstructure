@@ -9,9 +9,7 @@ int main(){
        for(int i = 0; i < 3; i++){
         printf("Ingresa el nombre de el integrante numero %i\n",i+1);
         fgets(nombre, sizeof(nombre),stdin);
-         strcpy(integrantes[0],nombre);
-         strcpy(integrantes[1],nombre);
-         strcpy(integrantes[2],nombre);
+         strcpy(integrantes[i],nombre);
        }
        printf("Lista de los integrantes\n");
        for(int i = 0; i < 3; i++){
