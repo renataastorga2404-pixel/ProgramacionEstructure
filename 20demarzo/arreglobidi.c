@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int m()
+int main()
 {
  char nombre[4][20];
 
